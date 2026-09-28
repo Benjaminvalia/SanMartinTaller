@@ -1,0 +1,113 @@
+body {
+    background-color: #F3E9D2;
+    color: #333333;
+    padding: 3%;
+}
+
+header {
+    background-color: #1E3A5F;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    border-bottom: 4px solid #D4AF37;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #fffaf0 !important;
+    border-bottom: 2px solid #D4AF37;
+}
+
+.navbar .navbar-brand {
+    color: #1E3A5F;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #1E3A5F;
+}
+
+.navbar .nav-link:hover {
+    color: #D4AF37;
+}
+
+.navbar .nav-link.active {
+    color: #D4AF37;
+}
+
+.navbar .dropdown-menu {
+    background-color: #fffaf0;
+    border: 1px solid #D4AF37;
+}
+
+.navbar .dropdown-item {
+    color: #1E3A5F;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #F3E9D2;
+    color: #D4AF37;
+}
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.legado-card {
+    background-color: #fffaf0;
+    border: 1px solid #D4AF37;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.legado-card h2 {
+    color: #1E3A5F;
+    font-weight: bold;
+}
+
+.legado-card p {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.video {
+    background-color: #fffaf0;
+    border: 1px solid #D4AF37;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 650px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.video h2 {
+    color: #1E3A5F;
+    font-weight: bold;
+}
+
+.video iframe {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1E3A5F;
+    color: white;
+    border-top: 4px solid #D4AF37;
+    margin-top: 50px;
+}
+
+.footer h4,
+.footer h5 {
+    color: #D4AF37;
+}
+
+.footer hr {
+    border-color: #D4AF37;
+}

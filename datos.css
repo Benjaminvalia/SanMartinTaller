@@ -1,0 +1,109 @@
+body {
+    background-color: #F3E9D2;
+    color: #333333;
+    padding: 3%;
+}
+
+.navbar {
+    background-color: #fffaf0;
+    border-bottom: 2px solid #D4AF37;
+}
+
+.navbar .navbar-brand {
+    color: #1E3A5F;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #1E3A5F;
+}
+
+.navbar .nav-link:hover {
+    color: #D4AF37;
+}
+
+.navbar .nav-link.active {
+    color: #D4AF37;
+}
+
+.navbar .dropdown-menu {
+    background-color: #fffaf0;
+    border: 1px solid #D4AF37;
+}
+
+.navbar .dropdown-item {
+    color: #1E3A5F;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #F3E9D2;
+    color: #D4AF37;
+}
+
+h2 {
+    color: #1E3A5F;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #fffaf0;
+    border: 1px solid #D4AF37;
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+.numero {
+    color: #D4AF37;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.curiosidad-especial {
+    border: 2px solid #D4AF37;
+}
+
+.curiosidad-especial h3 {
+    color: #1E3A5F;
+}
+
+.timeline-card {
+    background-color: #fffaf0;
+    border: 1px solid #D4AF37;
+    border-radius: 8px;
+    padding: 15px;
+    height: 100%;
+    text-align: center;
+}
+
+.timeline-card h4 {
+    color: #1E3A5F;
+}
+
+.video {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background-color: #e5dcc7;
+}
+
+.footer {
+    background-color: #1E3A5F;
+    color: white;
+    border-top: 4px solid #D4AF37;
+}
+
+.footer h4,
+.footer h5 {
+    color: #D4AF37;
+}
+
+.footer hr {
+    border-color: #D4AF37;
+}

@@ -1,0 +1,176 @@
+
+.carousel {
+    max-width: 1000px;
+    margin: 40px auto;
+    border: 2px solid #D4AF37;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.carousel img {
+    height: 450px;
+    object-fit: cover;
+}
+.carousel-caption {
+    background-color: rgba(30, 58, 95, 0.8);
+    border-radius: 8px;
+    padding: 10px;
+}
+.carousel-caption p {
+    color: white;
+    text-shadow: 1px 1px 3px #000000;
+}
+.footer {
+    background-color: #1E3A5F;
+    color: white;
+    border-top: 4px solid #D4AF37;
+}
+
+.footer h4,
+.footer h5 {
+    color: #D4AF37;
+}
+
+.footer p {
+    margin-bottom: 8px;
+}
+
+.footer hr {
+    border-color: #D4AF37;
+}
+
+.footer small {
+    color: #F3E9D2;
+}
+.efemerides .card {
+    background-color: #fffaf0;
+    border: 2px solid #D4AF37;
+}
+
+.efemerides .card-title {
+    color: #1E3A5F;
+}
+
+.efemerides .card-text {
+    color: #333333;
+}
+.efemerides .card {
+    background-color: #fffaf0;
+    border: 2px solid #D4AF37;
+}
+
+.efemerides h2,
+.efemerides h3 {
+    color: #1E3A5F;
+}
+
+.efemerides .card-text {
+    color: #333333;
+}
+.procer {
+    background-color: #F3E9D2;
+}
+
+.procer h2,
+.procer h3,
+.procer h4,
+.procer h5 {
+    color: #1E3A5F;
+}
+
+.procer .card {
+    background-color: #fffaf0;
+    border: 2px solid #D4AF37;
+    transition: 0.3s;
+}
+
+.procer .card:hover {
+    transform: translateY(-5px);
+}
+
+.procer .alert {
+    border-left: 6px solid #D4AF37;
+}
+.historia {
+    background-color: #F3E9D2;
+}
+
+.historia h2,
+.historia h3 {
+    color: #1E3A5F;
+}
+
+.historia .card {
+    background-color: #fffaf0;
+    border: 2px solid #D4AF37;
+}
+
+.historia .card-title {
+    color: #1E3A5F;
+}
+
+.historia .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.card {
+    background-color: #F3E9D2;
+    border: 2px solid #D4AF37;
+}
+
+.card-title {
+    color: #1E3A5F;
+}
+.navbar {
+    background-color: #fffaf0;
+    border-bottom: 2px solid #D4AF37;
+}
+
+.navbar .navbar-brand {
+    color: #1E3A5F;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #1E3A5F;
+}
+
+.navbar .nav-link:hover {
+    color: #D4AF37;
+}
+
+.navbar .nav-link.active {
+    color: #D4AF37;
+}
+
+.navbar .dropdown-menu {
+    background-color: #fffaf0;
+    border: 1px solid #D4AF37;
+}
+
+.navbar .dropdown-item {
+    color: #1E3A5F;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #F3E9D2;
+    color: #D4AF37;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 5px #12355B;
+}
+header{
+    height: 250px;
+    background-image: url("imagenes/bandera.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #E8E4DC;
+    color: #1E3A5F;
+    padding: 3%;
+}
